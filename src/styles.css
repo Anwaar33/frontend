@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+/* Tailwind v4 — preflight is intentionally skipped so Bootstrap's base styles survive */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css";
+
